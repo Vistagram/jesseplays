@@ -3,147 +3,85 @@
 
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="home.css">
+  <link rel="stylesheet" href="profile.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vistagram</title>
+  <title>Nome (@nome-vistagram)</title>
 </head>
 
 <body>
-  <nav>
-    <div class="top-bar">
-      <div class="logo-box">
-        <a href="#top"><img class="logo" src="img/logo.png" alt="vistagram"></a>
-      </div>
-    </div>
-  </nav>
 
-  <div class="story-menu" id="top">
-    <div class="story-box">
-      <a href="story.html"><img class="story" src="img/profile-pic.png" alt=""></a>
-      <a href="profile.html"><h4>nome_conta</h4></a>
+  <div class="top-box">
+    <div class="top-item1">
+      <a href="index.html"><img src="img/back.png" alt="back button" class="top-button"></a>
     </div>
-    <div class="story-box">
-      <a href="story.html"><img class="story" src="img/profile-pic.png" alt=""></a>
-      <a href="profile.html"><h4>nome_conta</h4></a>
+    <div class="top-text">
+      <h1>nome.conta <img src="img/checkmark.png" alt="verification badge" class="checkmark"></h1>
     </div>
-    <div class="story-box">
-      <a href="story.html"><img class="story" src="img/profile-pic.png" alt=""></a>
-      <a href="profile.html"><h4>nome_conta</h4></a>
+    <div class="top-item2">
+      <a><img src="img/bell.png" alt="notification bell" class="top-button"></a>
     </div>
-    <div class="story-box">
-      <a href="story.html"><img class="story" src="img/profile-pic.png" alt=""></a>
-      <a href="profile.html"><h4>nome_conta</h4></a>
-    </div>
-    <div class="story-box">
-      <a href="story.html"><img class="story" src="img/profile-pic.png" alt=""></a>
-      <a href="profile.html"><h4>nome_conta</h4></a>
-    </div>
-    <div class="story-box">
-      <a href="story.html"><img class="story" src="img/profile-pic.png" alt=""></a>
-      <a href="profile.html"><h4>nome_conta</h4></a>
-    </div>
-    <div class="story-box">
-      <a href="story.html"><img class="story" src="img/profile-pic.png" alt=""></a>
-      <a href="profile.html"><h4>nome_conta</h4></a>
+    <div class="top-item2">
+    <a><img src="img/options.png" alt="options" class="top-button"></a>
     </div>
   </div>
 
-  <!-- ______________________________________________________________________ -->
-  <div class="card">
-
-    <div class="top">
-      <div class="profile-img">
-        <img src="img/profile-pic.png" class="profile-pic" alt="">
-      </div>
-      <div class="profile-name">
-        <a href="profile.html"><h1>Profile_Name <img src="img/checkmark.png" alt="verification badge" class="checkmark"></h1></a>
-        <h2>Porto, Portugal</h2>
-      </div>
-      <div class="options">
-        <img src="img/dot.png" class="options-img" alt="">
-      </div>
+  <div class="profile-box">
+    <div class="profile-item">
+    <a href="post.html"><img src="img/profile-pic.png" alt="profile pic" class="profile-pic"></a>
     </div>
-
-    <div class="img-box">
-      <img src="img/bg.jpg" class="img" alt="">
+    <div class="number-item">
+      <h2>9</h2>
+      <h3 class="p-info">Publicações</h3>
     </div>
-
-    <div class="action-buttons">
-      <div class="a-button">
-        <img src="img/heart.png" class="heart" onclick="likeButton()" alt="">
-      </div>
-      <div class="a-button">
-        <img src="img/comment.png" class="button" alt="">
-      </div>
-      <div class="a-button-space">
-        <img src="img/share.png" class="button" alt="">
-      </div>
-      <div class="a-button-book">
-        <img src="img/bookmark.png" class="button" alt="">
-      </div>
+    <div class="number-item">
+      <h2>24 m</h2>
+      <h3 class="p-info">Seguidores</h3>
     </div>
-
-    <div class="like-comment">
-      <h1 class="likes">3647 gostos</h1>
-      <p><em>Profile_Name</em> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut convallis ornare ante, eu vulputate justo <span>#hashtag1</span> <span>#hashtag2</span></p>
-      <div class="comments">
-        <p><em>nome.influencer</em> Ut convallis ornare ante
-        <br><em>nome.fan</em> eu vulputate justo</p>
-      </div>
-      <h4>mais 209 comentários</h4>
-      <h4 class="time">29 de dezembro</h4>
+    <div class="number-item">
+      <h2>207</h2>
+      <h3 class="p-info">A seguir</h3>
     </div>
   </div>
 
-  <!-- ______________________________________________________________________ -->
-  <div class="card">
+  <div class="desc">
+    <h1>Nome</h1>
+    <p style="color:gray">Influencer</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent egestas, nulla id tincidunt facilisis, ipsum nisl ultricies odio, in sagittis diam libero a sem.</p>
+  </div>
 
-    <div class="top">
-      <div class="profile-img">
-        <img src="img/profile-pic.png" class="profile-pic" alt="">
-      </div>
-      <div class="profile-name">
-        <a href="profile.html"><h1>Profile_Name <img src="img/checkmark.png" alt="verification badge" class="checkmark"></h1></a>
-        <h2>Porto, Portugal</h2>
-      </div>
-      <div class="options">
-        <img src="img/dot.png" class="options-img" alt="">
-      </div>
+  <div class="posts-box">
+    <div class="post-item">
+      <a href="post.html#9"><img src="img/post.jpg" alt="vistagram post" class="post"></a>
     </div>
-
-    <div class="img-box">
-      <img src="img/bg.jpg" class="img" alt="">
+    <div class="post-item">
+      <a href="post.html#8"><img src="img/post.jpg" alt="vistagram post" class="post"></a>
     </div>
-
-    <div class="action-buttons">
-      <div class="a-button">
-        <img src="img/heart.png" class="heart" onclick="likeButton()" alt="">
-      </div>
-      <div class="a-button">
-        <img src="img/comment.png" class="button" alt="">
-      </div>
-      <div class="a-button-space">
-        <img src="img/share.png" class="button" alt="">
-      </div>
-      <div class="a-button-book">
-        <img src="img/bookmark.png" class="button" alt="">
-      </div>
+    <div class="post-item">
+      <a href="post.html#7"><img src="img/post.jpg" alt="vistagram post" class="post"></a>
     </div>
-
-    <div class="like-comment">
-      <h1 class="likes">3647 gostos</h1>
-      <p><em>Profile_Name</em> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut convallis ornare ante, eu vulputate justo <span>#hashtag1</span> <span>#hashtag2</span></p>
-      <div class="comments">
-        <p><em>nome.influencer</em> Ut convallis ornare ante
-        <br><em>nome.fan</em> eu vulputate justo</p>
-      </div>
-      <h4>mais 209 comentários</h4>
-      <h4 class="time">29 de dezembro</h4>
+    <div class="post-item">
+      <a href="post.html#6"><img src="img/post.jpg" alt="vistagram post" class="post"></a>
+    </div>
+    <div class="post-item">
+      <a href="post.html#5"><img src="img/post.jpg" alt="vistagram post" class="post"></a>
+    </div>
+    <div class="post-item">
+      <a href="post.html#4"><img src="img/post.jpg" alt="vistagram post" class="post"></a>
+    </div>
+    <div class="post-item">
+      <a href="post.html#3"><img src="img/post.jpg" alt="vistagram post" class="post"></a>
+    </div>
+    <div class="post-item">
+      <a href="post.html#2"><img src="img/post.jpg" alt="vistagram post" class="post"></a>
+    </div>
+    <div class="post-item">
+      <a href="post.html#1"><img src="img/post.jpg" alt="vistagram post" class="post"></a>
     </div>
   </div>
 
 </body>
+
 </html>
